@@ -125,18 +125,33 @@ li,
 .adopt-advert {
     display: flex;
     flex-direction: row;
-    padding: 20px 40px;
+    justify-content: space-between;
+    padding: 40px 40px;
     background-color: #3882f6;
     border-radius: 8px;
-    color: #e5e7eb;
+    color: white;
+    width: 1000px;
 }
 
-button {
+.advert-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.advert-text p {
+    font-weight: lighter;
+    padding-top: 5px;
+}
+
+.adopt-advert button {
     background-color: #3882f6;
     color: #e5e7eb;
+    border-color: white;
+    font-weight: bold;
     border-radius: 8px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     margin: 15px;
+    width: 120px;
 }
 
 footer {
