@@ -73,17 +73,50 @@ li,
 }
 
 .youknow-h1 {
-    padding: 0 350px 60px 350px;
+    padding-bottom: 40px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .images img {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    border-radius: 3px;
+    border-radius: 5px;
+    border-style: solid;
     border-color: #3882f6;
-    width: 30px;
-    height: 30px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.img-caption-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 150px;
+}
+
+.img-caption-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 150px;
+}
+
+.img-caption-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 150px;
+}
+
+.img-caption-4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 150px;
 }
 
 .quote-container {
