@@ -32,14 +32,14 @@
 
 .description-container img {
     height: 160px;
-    width: 330px;
+    width: 370px;
 }
 
 .description-text-button {
     display: flex;
     flex-direction: column;
     height: fit-content;
-    width: 350px;
+    width: 650px;
 }
 
 .description-container h1 {
@@ -79,6 +79,7 @@ li,
 .images {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
